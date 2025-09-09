@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  <Document>
+    <name>KERATON RW 03,06,08 BANGKALAN.kmz</name>
+    <StyleMap id="msn_ylw-pushpin">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#sn_ylw-pushpin</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#sh_ylw-pushpin</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="sh_ylw-pushpin">
+      <IconStyle>
+        <scale>1.3</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <BalloonStyle>
+		</BalloonStyle>
+      <LineStyle>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0000ff</color>
+      </PolyStyle>
+    </Style>
+    <Style id="sn_ylw-pushpin">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+      <BalloonStyle>
+		</BalloonStyle>
+      <LineStyle>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d0000ff</color>
+      </PolyStyle>
+    </Style>
+    <Folder>
+      <name>KERATON RW 03,06,08 BANGKALAN</name>
+      <open>1</open>
+      <Placemark>
+        <name>KERATON RW 03,06,08 BANGKALAN</name>
+        <styleUrl>#msn_ylw-pushpin</styleUrl>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+							112.7494641378061,-7.03064933963295,0 112.7491736178652,-7.030934183063485,0 112.7490396317015,-7.031107945227292,0 112.7495421301477,-7.031506698626979,0 112.7494862411873,-7.031788133908566,0 112.7503053665285,-7.03216858961161,0 112.7505406778418,-7.032309236867898,0 112.7506797863141,-7.032075860943101,0 112.750770217165,-7.032034616438382,0 112.7509975854728,-7.032065568342587,0 112.751202292072,-7.032137537694218,0 112.751459453993,-7.03222826320526,0 112.7515739512727,-7.032258160932299,0 112.7520033849183,-7.032382448538623,0 112.7521617864253,-7.03240802548809,0 112.7524152218862,-7.032090887692632,0 112.7524612715883,-7.03183849903713,0 112.752527606119,-7.03161681928916,0 112.7526975185539,-7.031545324892742,0 112.7530427607751,-7.031525505439712,0 112.7533250614508,-7.031474906836303,0 112.7535192440839,-7.031548050755676,0 112.7537884391549,-7.031471323604308,0 112.7539240361565,-7.03124535442209,0 112.7539349986104,-7.031105878386056,0 112.7536179561182,-7.030636939593582,0 112.7534769735697,-7.030398036695839,0 112.7533973835069,-7.030095674723788,0 112.7535257605125,-7.029807193182408,0 112.7535651400654,-7.029723261738904,0 112.7532178567553,-7.029637285299382,0 112.7529718778959,-7.029666543866513,0 112.7526460634014,-7.029778009826144,0 112.7521440988517,-7.029703159557807,0 112.7520778213963,-7.029657443451208,0 112.7522686267639,-7.029152919374989,0 112.7524857358772,-7.028672844921784,0 112.7521224545024,-7.028530305545788,0 112.7514717177861,-7.028339040162829,0 112.7509004308295,-7.028091377246783,0 112.7506965501731,-7.027955327022745,0 112.7505739689321,-7.027809339375688,0 112.750005626231,-7.028947707592629,0 112.749977233456,-7.029192714969822,0 112.7501082937248,-7.029481657165213,0 112.7499761282308,-7.029630664400504,0 112.749958076089,-7.030242677314071,0 112.7494641378061,-7.03064933963295,0 
+						</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"/>
+    </Folder>
+    <Folder>
+      <name>Centroid Placemarks</name>
+      <Placemark>
+        <name>Rumah 1</name>
+        <Point>
+          <coordinates>112.75168096524,-7.0306107629487,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
